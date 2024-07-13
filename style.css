@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::selection {
+    background: rgb(241, 116, 116);
+}
+body {
+    background-color: rgb(251, 243, 243);
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 25px;
+}
+
+.cards {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.title {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+.card {
+    width: 32%;
+}
+
+.card figure a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card .button {
+    position: absolute;
+    z-index: 1;
+    bottom: -20px;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: aliceblue;
+    padding: 10px 23px;
+    border: 1px solid gray;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(47, 55, 60);
+}
+
+.card .button img {
+    width: 22px;
+    margin: 0 5px;
+
+}
+
+.cart {
+    width: 25%;
+}
+
+.container-cart {
+
+    align-items: center;
+}
+
+.cart-body {
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cart-body h2 {
+    align-self: flex-start;
+    margin: 0 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.text-desciption {
+    margin: 25px 0;
+}
+
+.text-desciption .link {
+    margin: 5px 0;
+}
+
+.text-desciption p a {
+    text-decoration: none;
+    font-weight: 400;
+    color: gray;
+
+}
+
+.description {
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.precio span {
+    font-weight: 700;
+    padding-right:2px;
+}
+
+.precio {
+    color: rgb(250, 13, 13);
+}
